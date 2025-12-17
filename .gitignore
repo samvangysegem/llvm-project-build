@@ -1,0 +1,9 @@
+# Build directory
+/build/
+/build.*/
+
+# Install directory
+/riscv-none-elf/
+
+# MacOS
+.DS_Store
