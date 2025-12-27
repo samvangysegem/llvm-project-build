@@ -3,7 +3,7 @@
 /build.*/
 
 # Install directory
-/riscv-none-elf/
+install/
 
 # MacOS
 .DS_Store
