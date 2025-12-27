@@ -88,7 +88,7 @@ clean-picolibc:
 ######################
 
 LIBCXX_TOOLCHAIN_FILE:=$(abspath cmake/riscv32.none.elf.cmake)
-LIBCXX_CACHE_FILE:=$(abspath cmake/riscv32-picolibc-libcxx.cmake)
+LIBCXX_CACHE_FILE:=$(abspath cmake/libcxx.cmake)
 
 config-libcxx:
 	-@mkdir ${LIBCXX_BUILD_DIR}

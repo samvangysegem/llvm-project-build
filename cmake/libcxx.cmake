@@ -3,6 +3,8 @@
 # Python configuration - required for generating libcxx.imp
 if(DEFINED ENV{PYENV_ROOT})
   set(Python3_EXECUTABLE "$ENV{PYENV_ROOT}/shims/python3" CACHE FILEPATH "")
+else()
+  set(Python3_EXECUTABLE "/usr/bin/python3" CACHE FILEPATH "")
 endif()
 
 # Library configuration
