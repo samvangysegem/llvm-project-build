@@ -14,7 +14,7 @@ LIBS_INSTALL_DIR:=$(abspath install/riscv32-none-elf)
 .PHONY: all clean config-llvm build-llvm install-llvm clean-llvm config-picolibc build-picolibc install-picolibc clean-picolibc config-libcxx build-libcxx install-libcxx clean-libcxx
 
 # Default target
-all: clean install-llvm install-picolibc install-libcxx
+all: install-llvm install-picolibc install-libcxx
 
 .PHONY: clean
 clean:
